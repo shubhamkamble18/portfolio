@@ -1,0 +1,137 @@
+.about__grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 56px;
+  align-items: center;
+}
+
+.about__image-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.about__image {
+  width: min(100%, 360px);
+  aspect-ratio: 1 / 1;
+  padding: 12px;
+  border-radius: 32px;
+  background: linear-gradient(
+    135deg,
+    rgba(96, 165, 250, 0.22),
+    rgba(59, 130, 246, 0.08)
+  );
+  box-shadow: var(--shadow-card);
+  animation: fadeUp 0.8s ease both;
+  position: relative;
+  overflow: hidden;
+}
+
+.about__image::before {
+  content: "";
+  position: absolute;
+  inset: -25% auto auto -20%;
+  width: 180px;
+  height: 180px;
+  background: rgba(96, 165, 250, 0.16);
+  filter: blur(18px);
+  border-radius: 50%;
+}
+
+.about__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 22px;
+  border: 1px solid var(--color-border);
+  position: relative;
+  z-index: 1;
+  transition:
+    transform 0.3s ease,
+    filter 0.3s ease;
+}
+
+.about__image:hover img {
+  transform: scale(1.02);
+  filter: saturate(1.1);
+}
+
+.about__content {
+  animation: fadeUp 0.9s ease both;
+}
+
+.about__content h3 {
+  font-size: 1.7rem;
+  margin-bottom: 18px;
+}
+
+.about__content p {
+  color: var(--color-text-secondary);
+  margin-bottom: 20px;
+  max-width: 560px;
+}
+
+.about__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.about__badges span {
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+  border: 1px solid rgba(96, 165, 250, 0.22);
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.about__info {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.about__info div {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.about__info strong {
+  min-width: 110px;
+  color: var(--color-text);
+}
+
+.about__info span {
+  color: var(--color-text-secondary);
+}
+
+@media (max-width: 860px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .about__content p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about__badges {
+    justify-content: center;
+  }
+
+  .about__info {
+    align-items: center;
+  }
+
+  .about__info div {
+    justify-content: center;
+    width: 100%;
+  }
+}

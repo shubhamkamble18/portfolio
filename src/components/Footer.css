@@ -1,0 +1,25 @@
+.footer {
+  text-align: center;
+  padding: 44px 20px;
+  background-color: var(--color-ink);
+  color: #ffffff;
+}
+
+.footer__name {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.footer__name span {
+  color: var(--color-accent);
+}
+
+.footer__tagline {
+  color: var(--color-ink-text-secondary);
+}
+
+.footer__copyright {
+  margin-top: 20px;
+  font-size: 0.85rem;
+  color: var(--color-ink-text-secondary);
+}

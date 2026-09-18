@@ -1,0 +1,17 @@
+.resume__container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.resume__text {
+  color: var(--color-text-secondary);
+  margin-bottom: 28px;
+}
+
+.resume__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}

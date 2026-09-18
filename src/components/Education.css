@@ -1,0 +1,35 @@
+.timeline {
+  max-width: 700px;
+  margin: 0 auto;
+  border-left: 3px solid var(--color-accent);
+  padding-left: 30px;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-item span {
+  color: var(--color-accent);
+  font-weight: 700;
+  font-size: 0.88rem;
+}
+
+.timeline-item h4 {
+  font-size: 1.25rem;
+  margin: 6px 0 4px;
+}
+
+.timeline-item__institution {
+  color: var(--color-text);
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.timeline-item p {
+  color: var(--color-text-secondary);
+}
