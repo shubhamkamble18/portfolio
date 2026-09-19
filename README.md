@@ -127,17 +127,11 @@ Full Stack Development  ███████████████░░░�
 ## Portfolio
 
 🌐 **Live Portfolio:**
-Add your deployed portfolio URL here
+https://shubhamkamble-portfolio.netlify.app/
+
 
 ---
 
-## Connect With Me
-
-* **GitHub:** Add your GitHub profile
-* **LinkedIn:** Add your LinkedIn profile
-* **Email:** Add your professional email
-
----
 
 ## Project Structure
 
