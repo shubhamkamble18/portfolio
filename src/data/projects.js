@@ -55,7 +55,7 @@ const projects = [
     description:
       "A responsive job portal interface where users can explore job opportunities, search for positions, and view job information through a clean and organized layout.",
     tech: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    githubUrl: "https://github.com/shubhamkamble18/job_portal-/",
+    githubUrl: "https://shubhamkamble18.github.io/job_portal-/",
     demoUrl: "https://shubhamkamble18.github.io/job_portal-/",
     icon: FaBriefcase,
     image: jobportal,
