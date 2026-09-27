@@ -1,18 +1,26 @@
-import { FaFilm, FaHome, FaCalendarCheck } from "react-icons/fa";
+import {
+  FaFilm,
+  FaHome,
+  FaBook,
+  FaBriefcase,
+  FaWallet,
+} from "react-icons/fa";
 
-import movie from "../images/movie.jpeg";
+import movie from "../images/tickertdada.jpeg";
 import bookss from "../images/bookss.jpeg";
 import realstate from "../images/realstate.png";
+import jobportal from "../images/jobportal.jpeg";
+import expenses from "../images/expensetraker.png"
 
 const projects = [
   {
     id: 1,
     title: "CineBook – Movie Ticket Booking",
     description:
-      "A responsive movie ticket booking website where users can explore movies, view details and go through a ticket booking interface.",
-    tech: ["React.js", "JavaScript", "CSS", "HTML"],
-    githubUrl: "YOUR_PROJECT_URL",
-    demoUrl: "YOUR_PROJECT_URL",
+      "A responsive movie ticket booking platform where users can explore movies, view movie details, select showtimes, make demo payments, and manage their bookings.",
+    tech: ["React.js", "JavaScript", "React Router", "CSS", "HTML"],
+    githubUrl: "https://github.com/shubhamkamble18/moviebooking",
+    demoUrl: "https://ticketdada.netlify.app/",
     icon: FaFilm,
     image: movie,
   },
@@ -21,10 +29,10 @@ const projects = [
     id: 2,
     title: "Real Estate Website",
     description:
-      "A responsive property listing website where users can browse property information through modern property cards.",
-    tech: ["Bootstrap", "JavaScript", "CSS"],
-    githubUrl: "YOUR_PROJECT_URL",
-    demoUrl: "YOUR_PROJECT_URL",
+      "A responsive real estate website that allows users to explore property listings through modern property cards with a clean and user-friendly interface.",
+    tech: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    githubUrl: "https://github.com/shubhamkamble18/real_estate",
+    demoUrl: "https://shubhamkamble18.github.io/real_estate/",
     icon: FaHome,
     image: realstate,
   },
@@ -33,12 +41,43 @@ const projects = [
     id: 3,
     title: "Book Selling Website",
     description:
-      "A modern online bookstore where users can browse books, explore categories and discover their favorite books.",
-    tech: ["React.js", "JavaScript", "CSS", "HTML"],
+      "A modern online bookstore where users can browse books, explore different categories, view book information, and discover their favorite titles.",
+    tech: ["React.js", "JavaScript", "CSS", "HTML" ,"python","Flask"],
     githubUrl: "YOUR_PROJECT_URL",
     demoUrl: "YOUR_PROJECT_URL",
-    icon: FaCalendarCheck,
+    icon: FaBook,
     image: bookss,
+  },
+
+  {
+    id: 4,
+    title: "Job Portal",
+    description:
+      "A responsive job portal interface where users can explore job opportunities, search for positions, and view job information through a clean and organized layout.",
+    tech: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    githubUrl: "https://github.com/shubhamkamble18/job_portal-/",
+    demoUrl: "https://shubhamkamble18.github.io/job_portal-/",
+    icon: FaBriefcase,
+    image: jobportal,
+  },
+
+  {
+    id: 5,
+    title: "Expense Tracker",
+    description:
+      "A full-stack expense tracking application that helps users manage their expenses, track transactions, and organize financial records through a simple interface.",
+    tech: [
+      "React.js",
+      "JavaScript",
+      "CSS",
+      "HTML",
+      "Python",
+      "Flask",
+    ],
+    githubUrl: "https://github.com/shubhamkamble18/exptraker",
+    demoUrl: "https://expense-tracker-app-6y3g.onrender.com",
+    icon: FaWallet,
+    image: expenses,
   },
 ];
 
