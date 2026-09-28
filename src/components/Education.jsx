@@ -1,20 +1,22 @@
 import "./Education.css";
 
-// Replace these placeholder values with your real education history.
 const educationHistory = [
   {
     year: "2023-2026",
     degree: "Bachelor of Computer Applications",
-    institution: "Sahyog college of mangenment and IT ",
-    description: "Short description of coursework, achievements or focus area.",
+    institution: "Sahyog College of Management and IT",
+    description:
+      "Built a strong foundation in computer applications, programming, web development, databases, and software development. Developed practical projects using technologies such as React, JavaScript, Python, and Flask.",
   },
 
   {
     year: "2019-2020",
     degree: "Commerce",
-    institution: "Laxman Devram college",
-    description: "Short description of coursework, achievements or focus area.",
+    institution: "Laxman Devram College",
+    description:
+      "Developed a strong foundation in accounting, business studies, economics, and financial concepts while building analytical, communication, and problem-solving skills.",
   },
+
 ];
 
 function Education() {
